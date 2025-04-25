@@ -1,0 +1,26 @@
+{
+  "name": "trea-test",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node server.js",
+    "client": "vite",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@alicloud/bailian20230601": "^1.3.0",
+    "@alicloud/openapi-client": "^0.4.14",
+    "@alicloud/pop-core": "^1.8.0",
+    "express": "^4.18.2",
+    "openai": "^4.96.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "concurrently": "^8.2.2",
+    "vite": "^5.4.18"
+  }
+}
