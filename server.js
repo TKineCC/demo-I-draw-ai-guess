@@ -17,7 +17,7 @@ const wss = new WebSocket.Server({ server });
 
 // 初始化 DashScope 客户端（兼容 OpenAI SDK）
 const openai = new OpenAI({
-  apiKey: process.env.DASHSCOPE_API_KEY || 'sk-2bca6c77bf3a4122a8a795cdc903d44a', // 从环境变量或直接填写
+  apiKey: process.env.DASHSCOPE_API_KEY || 'your-api-key', // 从环境变量或直接填写
   baseURL: 'https://dashscope.aliyuncs.com/compatible-mode/v1'
 });
 
